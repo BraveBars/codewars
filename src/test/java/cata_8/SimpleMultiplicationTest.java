@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 public class SimpleMultiplicationTest {
     @Test
-    public void test1() {
+    public void simpleMultiplicationTest1() {
         System.out.println("Checking for Odd numbers.");
         assertEquals(9, SimpleMultiplication.simpleMultiplication(1));
         assertEquals(27, SimpleMultiplication.simpleMultiplication(3));
@@ -14,7 +14,7 @@ public class SimpleMultiplicationTest {
         assertEquals(207, SimpleMultiplication.simpleMultiplication(23));
     }
     @Test
-    public void test1_2() {
+    public void simpleMultiplicationTest1_2() {
         System.out.println("Checking for Odd numbers.");
         assertEquals(9, SimpleMultiplication.simpleMultiplication2(1));
         assertEquals(27, SimpleMultiplication.simpleMultiplication2(3));
@@ -23,7 +23,7 @@ public class SimpleMultiplicationTest {
     }
 
     @Test
-    public void test2() {
+    public void simpleMultiplicationTest2() {
         System.out.println("Checking for Even numbers.");
         assertEquals(16, SimpleMultiplication.simpleMultiplication(2));
         assertEquals(32, SimpleMultiplication.simpleMultiplication(4));
@@ -31,7 +31,7 @@ public class SimpleMultiplicationTest {
         assertEquals(208, SimpleMultiplication.simpleMultiplication(26));
     }
     @Test
-    public void test2_2() {
+    public void simpleMultiplicationTest2_2() {
         System.out.println("Checking for Even numbers.");
         assertEquals(16, SimpleMultiplication.simpleMultiplication2(2));
         assertEquals(32, SimpleMultiplication.simpleMultiplication2(4));
