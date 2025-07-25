@@ -13,13 +13,6 @@
 package cata_7;
 
 public class CountTheDivisorsOfaNumber {
-    public static void main(String[] args) {
-        System.out.println(numberOfDivisors(15));
-        System.out.println(numberOfDivisors(4));   // 3
-        System.out.println(numberOfDivisors(5));   // 2
-        System.out.println(numberOfDivisors(12));  // 6
-        System.out.println(numberOfDivisors(30));  // 8
-    }
 
     public static long numberOfDivisors(int n) {
         int count = 0;
