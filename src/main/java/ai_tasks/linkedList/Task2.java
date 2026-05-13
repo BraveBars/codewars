@@ -1,6 +1,5 @@
 package ai_tasks.linkedList;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 
 //Реализуй простой стек истории браузера.
