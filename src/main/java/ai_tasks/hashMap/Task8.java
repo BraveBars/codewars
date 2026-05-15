@@ -1,4 +1,4 @@
-package ai_tasks.map;
+package ai_tasks.hashMap;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package ai_tasks.map;
+package ai_tasks.hashMap;
 //**Задача 2:**
 //У тебя есть список заказов:
 //List<String> orders = new ArrayList<>(Arrays.asList(
